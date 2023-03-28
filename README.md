@@ -1,1 +1,1 @@
-# There will be all simple projects that i've made
+# Here will be all the simple projects i made
