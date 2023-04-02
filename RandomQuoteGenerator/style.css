@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(37, 88, 107);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1400px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+h1{
+  font-size: 40px;
+}
+
+.quote{
+  padding: 30px 40px;
+  
+}
+
+.gif{
+  margin-top: 100px;
+}
+
+button{
+  margin-top: 35px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+button:hover{
+  background-color: #c0c0c0;
+}
+
+.boxText{
+  height: 250px;
+  font-size: 25px;
+  width: 800px;
+}
+.translatedQuote{
+  margin-top: 45px;
+}
