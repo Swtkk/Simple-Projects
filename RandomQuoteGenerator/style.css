@@ -77,7 +77,7 @@ button:hover {
     background-color: rgb(37, 88, 107);
 }
 
-.containerr {
+.loading {
     height: 15px;
     width: 105px;
     display: flex;
