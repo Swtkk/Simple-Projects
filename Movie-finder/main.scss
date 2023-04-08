@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(60deg, rgb(19, 17, 62) 0%, rgb(53, 131, 187) 0%, rgb(7, 116, 104) 77%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+main {
+    background-color: rgba(34, 34, 69, 0.81);
+    min-width: 50vw;
+    padding: 3em 1.8em;
+    border-radius: 0.6em;
+    box-shadow: .3em 1em 1em 1.2em rgba(0, 0, 0, .2);
+}
+
+.searchBox {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.2em;
+}
+
+input,
+button {
+    outline: none;
+    padding: 0.8em;
+    font-size: 1.1em;
+    border-radius: 0.3em;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid grey;
+    color: #fff;
+    padding: 0.7em;
+}
+
+input:focus {
+    border-color: white;
+}
+
+button {
+    background-color: goldenrod;
+    border: none;
+    cursor: pointer;
+}
+
+button:focus {
+    border: 1px solid white;
+}
+
+.movie {
+    text-align: center;
+}
+
+.msg {
+    color: white;
+    margin-top: 25px;
+    font-size: 1.8em;
+}
+
+.movie {
+    color: #fff;
+}
+
+.info {
+    position: relative;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    margin-top: 1.2em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 0.06em;
+}
+
+.details {
+    display: flex;
+    font-size: 0.95em;
+    gap: 1em;
+    justify-content: start;
+    color: #fffefe;
+    margin: 0.6em 0;
+    font-weight: 300;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.genre {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+    div {
+        border: 1px solid #a0a0a0;
+        font-size: 1.5em;
+        padding: 0.4em 1.6em;
+        border-radius: 0.4em;
+        font-weight: 300;
+    }
+}
+
+.plot,
+.awards {
+    text-align: left;
+    max-width: 800px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.plotText,
+.awardsText {
+    margin-top: 10px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #a0a0a0;
+    text-align: justify;
+}
+
+img {
+    border-radius: 8px;
+}
